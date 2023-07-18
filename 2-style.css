@@ -209,3 +209,64 @@ button:hover, button:active {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* OUR RESULTS */
+.our-results {
+    box-sizing: border-box;
+    height: 650px;
+    background-image: url("images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 141px;
+    color: var(--color-white);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    text-align: center;
+}
+
+.our-results h2 {
+    margin-bottom: 40px;
+}
+
+.our-results-text p {
+    width: 637px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 56px;
+}
+
+.our-results-pentagon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 79px;
+    gap: 76px;
+}
+
+.pentagon-icon {
+    height: 190px;
+    width: 190px;
+    position: relative;
+}
+
+.our-results-pentagon h2, .our-results-pentagon p {
+    text-align: center;
+}
+
+.our-results-pentagon p {
+    position: absolute;
+    /* top: 70px; */
+    /* left: 51px; */
+}
+
+.our-results-pentagon h2 {
+    position: absolute;
+    /* top: 116px; */
+    /* left: 40px; */
+}
+
+
+.our-results-pentagon h2 {
+
+}
