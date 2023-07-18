@@ -55,13 +55,13 @@ table {
     --color-grey: #a0a0a0;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
+    --color-off-black: #071629;
 
     /* HEADER */
-    --header-text-color:var(--color-white)
-}
+    --header-text-color:var(--color-white);
 
-body {
-
+    /* WHAT WE DO */
+    --wwd-text-color:var(--color-off-black);
 }
 
 /* HEADER */
@@ -145,4 +145,67 @@ button:hover, button:active {
     line-height: 26px;
     font-weight: 400;
     font-size: 16px;
+}
+
+/* WHAT WE DO */
+
+.main-top {
+    display: flex;
+    flex-direction: column;
+    width: 637px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-top p {
+    width: 637px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    font-weight: 400;
+    color: var(--wwd-text-color);
+}
+
+.main-top h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.main-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 97px;
+    width: 1002px;
+    height: 193px;
+    margin-left: 200px;
+    margin-right: 198px;
+    margin-bottom: 110px;
+    align-items: baseline;
+    gap: 58px;
+}
+
+.main-bottom-container {
+    text-align: center;
+}
+
+.icon {
+    margin-bottom: 15px;
+}
+
+.main-bottom h3 {
+    margin-bottom: 13px;
+    color: var(--wwd-text-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-bottom p {
+    color: var(--wwd-text-color);
+    line-height: 26px;
+    font-size: 14px;
+    font-weight: 400;
 }
