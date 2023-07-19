@@ -218,6 +218,7 @@ button:hover, button:active {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 141px;
+    padding-bottom: 79px;
     color: var(--color-white);
     /* display: flex;
     flex-direction: column;
@@ -227,6 +228,8 @@ button:hover, button:active {
 
 .our-results h2 {
     margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .our-results-text p {
@@ -235,38 +238,42 @@ button:hover, button:active {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .our-results-pentagon {
     display: flex;
     justify-content: center;
-    margin-bottom: 79px;
+    /* margin-bottom: 79px; */
     gap: 76px;
 }
 
 .pentagon-icon {
     height: 190px;
     width: 190px;
-    position: relative;
+    /* position: relative; */
+    background-image: url(images/pentagone.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 .our-results-pentagon h2, .our-results-pentagon p {
     text-align: center;
+    /* padding-top: 70px; */
 }
 
 .our-results-pentagon p {
-    position: absolute;
-    /* top: 70px; */
-    /* left: 51px; */
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .our-results-pentagon h2 {
-    position: absolute;
-    /* top: 116px; */
-    /* left: 40px; */
-}
-
-
-.our-results-pentagon h2 {
-
+    margin: 70px auto 20px;
+    font-size: 46px;
+    font-weight: 700;
+    font-style: normal;
 }
