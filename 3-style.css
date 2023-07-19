@@ -108,6 +108,9 @@ header {
 }
 
 .links ul a {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: var(--font-style);
     text-decoration: none;
     color: var(--header-text-color);
 }
@@ -124,17 +127,20 @@ header {
 }
 
 .header-text h2 {
-    font-size: 1.7em;
+    font-family: var(--font-style);
+    font-size: 32px;
     font-weight: 700;
 }
 
 .header-text h3 {
-    font-size: 1em;
+    font-family: var(--font-style);
+    font-size: 16px;
     margin-bottom: 40px;
     font-weight: 700;
 }
 
 button {
+    font-family: var(--font-style);
     width: 162px;
     height: 44px;
     border-radius: 22px;
@@ -152,6 +158,7 @@ button:hover, button:active {
 }
 
 .header-text p {
+    font-family: var(--font-style);
     line-height: 26px;
     font-weight: 400;
     font-size: 16px;
@@ -172,6 +179,7 @@ button:hover, button:active {
 }
 
 .main-top p {
+    font-family: var(--font-style);
     width: 637px;
     font-size: 16px;
     text-align: center;
@@ -181,7 +189,8 @@ button:hover, button:active {
 }
 
 .main-top h2 {
-    font-size: 2em;
+    font-family: var(--font-style);
+    font-size: 32px;
     font-weight: 600;
 }
 
@@ -207,6 +216,7 @@ button:hover, button:active {
 }
 
 .main-bottom h3 {
+    font-family: var(--font-style);
     margin-bottom: 13px;
     color: var(--wwd-text-color);
     font-size: 18px;
@@ -214,6 +224,7 @@ button:hover, button:active {
 }
 
 .main-bottom p {
+    font-family: var(--font-style);
     color: var(--wwd-text-color);
     line-height: 26px;
     font-size: 14px;
@@ -237,12 +248,14 @@ button:hover, button:active {
 }
 
 .our-results h2 {
+    font-family: var(--font-style);
     margin-bottom: 40px;
     font-size: 32px;
     font-weight: 600;
 }
 
 .our-results-text p {
+    font-family: var(--font-style);
     width: 637px;
     margin-top: 40px;
     margin-right: auto;
@@ -279,9 +292,11 @@ button:hover, button:active {
 .our-results-pentagon p {
     font-size: 14px;
     font-weight: 400;
+    font-family: var(--font-style);
 }
 
 .our-results-pentagon h2 {
+    font-family: var(--font-style);
     margin: 70px auto 20px;
     font-size: 46px;
     font-weight: 700;
