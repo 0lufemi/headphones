@@ -47,6 +47,15 @@ table {
 	border-spacing: 0;
 }
 
+/* FONT */
+
+@font-face {
+    font-family: 'Source San Pro';
+    src: url(Fonts/SourceSansPro-Regular.otf);
+}
+
+
+
 /* VARIABLES */
 :root {
     --color-primary: #D73953;
@@ -57,11 +66,15 @@ table {
     --color-dark-grey: #353535;
     --color-off-black: #071629;
 
+    --font-style: 'Source San Pro';
+
     /* HEADER */
     --header-text-color:var(--color-white);
 
     /* WHAT WE DO */
     --wwd-text-color:var(--color-off-black);
+
+
 }
 
 /* HEADER */
@@ -92,9 +105,6 @@ header {
     display: flex;
     height: 15px;
     gap: 41px;
-    /* justify-content: center; */
-    /* margin-bottom: 200px; */
-    /* align-items: flex-start; */
 }
 
 .links ul a {
@@ -276,4 +286,72 @@ button:hover, button:active {
     font-size: 46px;
     font-weight: 700;
     font-style: normal;
+}
+
+/* CONTACT US */
+
+label {
+    position: absolute;
+    left: 0;
+}
+
+.contact-us-section form input {
+    display: block;
+    margin: 0 auto;
+    width: 335px;
+    height: 29px;
+    /* background-color: var(--color-black); */
+    /* opacity: 0.17; */
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: var(--color-black);
+    opacity: 0.17;
+}
+
+.contact-us-section > div {
+    text-align: center;
+    height: 373px;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: 130px;
+    padding: 110px auto 130px;
+}
+
+.contact-us-section h3 {
+    margin-bottom: 56px;
+    color: #071629;
+    font-family: var(--font-style);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.name, .email {
+    margin-bottom: 45px;
+    font-family: var(--font-style);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.message {
+    margin-bottom: 56px;
+    font-family: var(--font-style);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+fieldset button {
+    align-self: center;
+    margin-bottom: 0;
+    font-family: var(--font-style);
+    font-size: 14px;
+    font-weight: 700;
 }
