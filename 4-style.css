@@ -54,6 +54,7 @@ table {
     src: url(Fonts/SourceSansPro-Regular.otf);
 }
 
+
 /* VARIABLES */
 :root {
     --color-primary: #D73953;
@@ -95,6 +96,22 @@ header {
     justify-content: space-around;
     align-items: flex-start;
     margin-top: 27.8px;
+}
+
+.nav-bar .menu a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 2em;
+}
+
+.nav-bar .menu {
+    display: none;
+}
+
+.hamburger a {
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--color-white);
 }
 
 .logo {
@@ -187,7 +204,6 @@ button:hover, button:active {
 
 .section-top p {
     font-family: var(--font-style);
-    /* width: 637px; */
     font-size: 16px;
     text-align: center;
     line-height: 26px;
@@ -419,4 +435,21 @@ footer p {
     margin-bottom: 39px;
     color: var(--color-white);
     opacity: 0.35;
+}
+
+/* FOR TABLETS */
+@media screen and (max-width: 768px) {
+
+}
+
+/* FOR MOBILE PHONES */
+@media screen and (max-width: 480px) {
+    .links {
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
 }
